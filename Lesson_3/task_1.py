@@ -5,4 +5,5 @@ def my_division(var_1 = float(input("Введите делимое: ")), var_2 =
     except ZeroDivisionError:
         return print("На ноль делить нельзя!")
 
+
 print(my_division())
