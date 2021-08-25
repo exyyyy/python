@@ -1,0 +1,5 @@
+n = input("Введите число n >= 0: ")
+print(type(n))
+n = str(n)
+out = int(n) + int(n + n) + int(n + n + n)
+print("Сумма n + nn + nnn будет равна", str(out))
