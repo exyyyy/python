@@ -1,7 +1,7 @@
 from sys import argv
 
-script_name, vyrabotka, stavka, premiya = argv
 try:
+    script_name, vyrabotka, stavka, premiya = argv
     if 0 < float(vyrabotka) < 744:
         if float(stavka) > 0:
             if float(premiya) >=0:
