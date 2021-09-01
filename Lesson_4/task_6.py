@@ -2,7 +2,7 @@ from itertools import count, cycle
 
 try:
     string = input('Введите строку для повтора: ')
-    n = input('Введите стартовое число < 20: ')
+    n = input('Введите стартовое число: ')
     count_1 = count(int(n))
     cycle_1 = cycle(string)
     for x in range(5):
