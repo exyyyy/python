@@ -8,3 +8,4 @@ for line in my_file:
     i += 1
     sum = sum + float(list_1[1])
 print(f'Средняя зарплата {sum / i:.2f}')
+my_file.close()

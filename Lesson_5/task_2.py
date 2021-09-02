@@ -8,3 +8,4 @@ for line in my_file:
     while slova.count('\n') != 0:
         slova.remove('\n')
     print(f'В {i} строке {len(slova)} слов(о/а)')
+my_file.close()
